@@ -1,16 +1,17 @@
 body {
     background-color: white;
-    margin: 0px;
 }
 
-.title {
+h1 {
     text-align: center;
     background-color: #E8DCCA;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
-.title h1 {
-    margin-top: 0px;
-    margin-bottom: 0px;
+ul {
+    list-style-type: none;
+}
+
+.recipes a {
+    color: green;
+    font-size: 25px;
 }
