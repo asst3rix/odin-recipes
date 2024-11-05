@@ -1,17 +1,54 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: white;
+    background-color: #EEE2B5;
 }
 
-h1 {
+.title {
     text-align: center;
-    background-color: #E8DCCA;
+    background-color: #3C552D;
+    color: white;
+    padding: 15px 0;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif
 }
 
-ul {
+.title h1 {
+    font-size: 40px;
+}
+
+.list {
+    margin: 20px 200px;
+    padding: 25px 25px 25px 25px;
+}
+
+.list ul {
     list-style-type: none;
 }
 
+.recipes {
+    background-color: #CA7373;
+    border: #D7B26D solid 7px;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    margin: 0 22.5px;
+}
+
 .recipes a {
-    color: green;
-    font-size: 25px;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
 }
