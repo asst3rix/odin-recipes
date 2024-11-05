@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #EEE2B5;
+    background-color: #FCFAEE;
 }
 
 .title {
@@ -19,7 +19,8 @@ body {
     color: white;
     padding: 15px 0;
     margin-bottom: 20px;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: #A5B68D solid 30px;
 }
 
 .title h1 {
@@ -36,19 +37,19 @@ body {
 }
 
 .recipes {
-    background-color: #CA7373;
-    border: #D7B26D solid 7px;
+    background-color: #ECDFCC;
+    border-bottom: #DA8359 solid 5px;
     display: inline-block;
     text-align: center;
     width: 30%;
-    padding: 20px;
+    padding: 20px 20px 10px 20px;
     margin: 0 22.5px;
 }
 
 .recipes a {
     display: inline-block;
     width: 100%;
-    color: white;
+    color: #DA8359;
     font-size: 30px;
     text-decoration: none;
 }
