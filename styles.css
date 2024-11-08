@@ -55,3 +55,52 @@ body {
 }
 
 /******* RECIPES *******/
+
+.content {
+    margin: 20px 150px;
+}
+
+.content div {
+    display: inline-block;
+}
+
+.image {
+    width: 33.55%;
+    padding: 5px;
+}
+
+.text {
+    width: 66.2%;
+    padding: 0 40px;
+}
+
+.text h2 {
+    padding: 5px 10px;
+    color: #DA8359;
+    background-color: #ECDFCC;
+    border-bottom: #DA8359 solid 2px;
+    margin: 15px 0;
+}
+
+.text p {
+    padding: 5px;
+}
+
+.text ul,
+.text ol {
+    padding-left: 27px;
+}
+
+.text li {
+    padding: 1px;
+}
+
+.text a {
+    display: block;
+    color: #3C552D;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 15px;
+    padding-left: 11px;
+}
